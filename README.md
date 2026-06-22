@@ -13,4 +13,5 @@
 - Before this PR, the app supported realtime for OpenAI cloud dictation, or batch transcription (process the whole recording when recording stops) for OpenAI-compatible, or realtime with Whisrs-hosted whisper.cpp ([CPU-only](https://github.com/y0sif/whisrs/issues/48)).
 - Pull request refactored OpenAI realtime transcription to a shared component that OpenAI-native and OpenAI-compatible can use.
 - Added over 100 unit tests. 
-- End result: realtime, fully-local, fully-private, GPU-accelerated voice transcription for Linux in Rust. 
+- End result: realtime, fully-local, fully-private, GPU-accelerated voice transcription for Linux in Rust.
+- Merged and released in [v0.1.19](https://github.com/y0sif/whisrs/releases/tag/v0.1.19).
