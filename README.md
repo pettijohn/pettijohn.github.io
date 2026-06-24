@@ -15,3 +15,17 @@
 - Added over 100 unit tests. 
 - End result: realtime, fully-local, fully-private, GPU-accelerated voice transcription for Linux in Rust.
 - Merged and released in [v0.1.19](https://github.com/y0sif/whisrs/releases/tag/v0.1.19).
+
+## TaskSchedulerEngine (2011 through 2026)
+
+- [https://github.com/pettijohn/TaskSchedulerEngine](https://github.com/pettijohn/TaskSchedulerEngine)
+- Built a lightweight C#/.NET scheduling engine with cron-like rules, second-level precision, timezone support, async callbacks, graceful shutdown, and retry behavior.
+- Designed a fluent scheduling API plus cron parsing, giving consumers an ergonomic way to define recurring or one-shot tasks without heavyweight scheduler infrastructure.
+- Implemented a high-performance rule evaluator that compiles schedules into bit masks for fast per-second matching with minimal allocations.
+- Architected a thread-safe evaluation pump that dispatches matching tasks asynchronously, tracks running callbacks, isolates failures, and handles missed-second catch-up behavior.
+- Modernized the project for .NET 8, 9, and 10 with cross-targeted automated tests covering parsing, concurrency, retries, shutdown, and scheduler edge cases.
+
+## Microsoft Kiota (2024)
+
+- Kiota generates strongly-typed API clients from OpenAPI specs in multiple  languages. 
+- Fixed an inheritance bug in generated C# classes where some generated classes were "squashed" (removed the inheritance and flattened properties) while others inherited. [PR 5123](https://github.com/microsoft/kiota/pull/5123), fixing bug [5041](https://github.com/microsoft/kiota/issues/5014).
