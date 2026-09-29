@@ -1,6 +1,14 @@
 # Travis Pettijohn - GitHub Portfolio
 [https://linkedin.com/in/pettijohn](https://linkedin.com/in/pettijohn)
 
+## REP JOT
+- [https://github.com/Pettibyte/RepJot](https://github.com/Pettibyte/RepJot)
+- Built a distraction-free, privacy-first weightlifting tracker that runs on constrained legacy browsers, including the Kindle Scribe experimental browser.
+- Developed a Svelte/Vite single-page application compiled to ES2019, balancing modern UI development with legacy-device compatibility.
+- Designed a zero-infrastructure architecture using Google OAuth, Google Drive app-data storage, and GitHub Pages hosting; workout data remains in each user’s Google account.
+- Implemented three-way JSON merge and conflict handling to synchronize workout history across multiple devices.
+- Built and evaluated an agent-assisted development workflow with Qwen-3.8 Flash Next, running locally on Strix Halo 128GB, using independent agents for implementation, code review, and targeted remediation of authentication and synchronization logic.
+
 ## Rust Linux Kernel Driver for Corsair AI Workstation Performance Selector
 - [https://github.com/pettijohn/corsair-ai-workstation-performance-level-linux](https://github.com/pettijohn/corsair-ai-workstation-performance-level-linux)
 - Developed a Rust Linux kernel module that integrates unsupported Corsair workstation firmware controls with Linux via ACPI/WMI and sysfs.
